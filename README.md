@@ -31,8 +31,12 @@ Eksekusi Query: Query SQL yang kompleks dijalankan melalui DBeaver untuk menghit
           events AS T2 ON T1.user_id = T2.user_id
       GROUP BY
           T1.test_group;
+
+          
 test_group     |  total_views | total_clicks |  click_through_rate_pct
+
 A (Control)    | 21367        | 3821         |  17.88%
+
 B (Eksperimen) | 19811        | 5001         |  25.24%
 
 Kesimpulan
